@@ -1,0 +1,4 @@
+repository "UnityTeach2_Demo@wiqge@cloud.cn"
+  path "/"
+    br "/main"
+    co "/main"

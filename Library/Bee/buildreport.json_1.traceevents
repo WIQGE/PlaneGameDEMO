@@ -1,0 +1,568 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1686813656483201, "dur": 2628102, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813656483404, "dur": 17451, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813656500858, "dur": 95769, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813656596628, "dur": 1079903, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813657676534, "dur": 1422452, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813659098989, "dur": 12313, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813659112097, "dur": 10, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1686813657276916, "dur": 377931, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686813657277797, "dur": 46051, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686813657627526, "dur": 7366, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686813657634896, "dur": 19941, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686813657635522, "dur": 18413, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686813657659117, "dur": 1120, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1686813657658364, "dur": 1900, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813659112292, "dur": 455, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1686813657778973, "dur":3150, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813657782132, "dur":61, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1686813657782208, "dur":19, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1686813657782227, "dur":360, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1686813657782607, "dur":536, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813657783143, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075209, "dur":301, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075510, "dur":18, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075528, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075532, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075541, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075543, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075548, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075550, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075554, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075555, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075560, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075561, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075566, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075568, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075572, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075574, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075578, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075580, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075584, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075586, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075590, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075592, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075596, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075598, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075604, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075622, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659075630, "dur":2496, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1686813657783467, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657783467, "dur":5394, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657788877, "dur":5, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686813657788889, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657790471, "dur":528, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686813657791004, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686813657791054, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657791518, "dur":2672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1686813657794192, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1686813657794222, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657794744, "dur":55958, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1686813657850723, "dur":22634, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686813657873361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657873367, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo.exe" }}
+,{ "pid":12345, "tid":1, "ts":1686813657875495, "dur":411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657875909, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657875916, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657878595, "dur":500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657879099, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657879108, "dur":1941, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657881075, "dur":437, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657881514, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657881520, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657883409, "dur":540, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657883952, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657883958, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657885933, "dur":441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657886377, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657886382, "dur":1543, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657887946, "dur":878, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657888827, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657888833, "dur":2053, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657890905, "dur":630, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657891538, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657891569, "dur":2774, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657894364, "dur":526, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657894892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657894897, "dur":1697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657896613, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657897066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657897073, "dur":1750, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657898841, "dur":383, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657899226, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657899231, "dur":1995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657901245, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657901638, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657901643, "dur":1932, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657903592, "dur":479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657904074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657904081, "dur":1806, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657905905, "dur":398, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657906306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657906312, "dur":2568, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657908903, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657909591, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657909597, "dur":2087, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657911705, "dur":397, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657912104, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657912109, "dur":2294, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657914426, "dur":375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657914805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657914813, "dur":2240, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657917075, "dur":589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657917667, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657917672, "dur":2745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657920444, "dur":514, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657920961, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657920969, "dur":2412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657923401, "dur":684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657924088, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657924095, "dur":2857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657926973, "dur":1031, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657928007, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657928013, "dur":4438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657932472, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657932986, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657932993, "dur":3320, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657936336, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657936639, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657936645, "dur":3385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657940063, "dur":1961, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657942028, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657942035, "dur":2599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657944659, "dur":1142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657945805, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657945810, "dur":3305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657949139, "dur":798, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657949942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657949951, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657952931, "dur":772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657953705, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657953711, "dur":3809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":1, "ts":1686813657957541, "dur":2403, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/FireData.xml" }}
+,{ "pid":12345, "tid":1, "ts":1686813657959948, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657959983, "dur":3006, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/FireData.xml" }}
+,{ "pid":12345, "tid":1, "ts":1686813657963012, "dur":190, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1686813657963205, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657963210, "dur":3571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1686813657966814, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686813657966841, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657966853, "dur":9250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/resources.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686813657976128, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686813657976153, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1686813657976162, "dur":4571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":1, "ts":1686813657980775, "dur":1094452, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657784120, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657784121, "dur":4745, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657788877, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686813657788958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657796805, "dur":129230, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":2, "ts":1686813657926055, "dur":912, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657926970, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657926977, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657931687, "dur":485, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657932175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657932180, "dur":3580, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657935788, "dur":417, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657936208, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657936213, "dur":3326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657939565, "dur":846, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657940414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657940422, "dur":2481, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657942923, "dur":490, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657943416, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657943422, "dur":4259, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657947710, "dur":4288, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657952003, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657952015, "dur":4862, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":2, "ts":1686813657956904, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1686813657957300, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657958196, "dur":2642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":2, "ts":1686813657960863, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1686813657960888, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657960894, "dur":6339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":2, "ts":1686813657967261, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686813657967282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657967290, "dur":9809, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level1.resS" }}
+,{ "pid":12345, "tid":2, "ts":1686813657977122, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686813657977143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1686813657977173, "dur":4126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1686813657981320, "dur":1093902, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657785859, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657785860, "dur":3004, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657788877, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686813657788946, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657792917, "dur":11800, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1686813657804739, "dur":5827, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686813657810570, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657810578, "dur":1574, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1686813657812170, "dur":61642, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657873815, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657874197, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657876310, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657876812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657876819, "dur":2118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657878957, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657879373, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657879380, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657881457, "dur":442, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657881902, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657881907, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657883783, "dur":321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657884107, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657884112, "dur":1925, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657886059, "dur":473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657886534, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657886568, "dur":1692, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657888276, "dur":391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657888669, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657888676, "dur":1875, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657890571, "dur":515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657891090, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657891098, "dur":2190, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657893310, "dur":501, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657893813, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657893820, "dur":1872, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657895711, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657896173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657896182, "dur":1945, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657898163, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657898613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657898619, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657900788, "dur":380, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657901170, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657901175, "dur":1747, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657902940, "dur":535, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657903478, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657903482, "dur":2033, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657905533, "dur":701, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657906237, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657906243, "dur":2114, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657908385, "dur":504, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657908892, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657908898, "dur":2496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657911415, "dur":427, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657911845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657911852, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657914261, "dur":498, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657914762, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657914766, "dur":2253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657917039, "dur":714, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657917755, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657917761, "dur":2629, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657920408, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657920840, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657920846, "dur":2010, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AutoStreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657922885, "dur":689, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657923578, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657923587, "dur":3051, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657926663, "dur":1486, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657928152, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657928158, "dur":4666, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657932847, "dur":299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657933149, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657933154, "dur":3473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657936650, "dur":665, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657937318, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657937328, "dur":3278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657940625, "dur":683, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657941311, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657941317, "dur":2307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657943644, "dur":499, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657944146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657944152, "dur":4520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657948698, "dur":2680, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657951381, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657951387, "dur":4894, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657956304, "dur":1317, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657957624, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657957630, "dur":2653, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":3, "ts":1686813657960305, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686813657960327, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657960405, "dur":2105, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1686813657962527, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686813657962547, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657962551, "dur":5731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1686813657968314, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686813657968344, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657968354, "dur":9275, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level1" }}
+,{ "pid":12345, "tid":3, "ts":1686813657977652, "dur":200, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686813657977855, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1686813657977861, "dur":3423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1686813657981306, "dur":1093909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686813657784905, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686813657784906, "dur":3959, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686813657788877, "dur":171321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686813657960201, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686813657960219, "dur":1936, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":4, "ts":1686813657962175, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686813657962199, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1686813657962203, "dur":16679, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1686813657978906, "dur":1096300, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686813657786566, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686813657786567, "dur":2296, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686813657788877, "dur":192589, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1686813657981470, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1686813657981859, "dur":2089, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":5, "ts":1686813657983967, "dur":1091247, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686813657787229, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686813657787230, "dur":1641, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686813657788876, "dur":82, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686813657788962, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686813657797177, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":6, "ts":1686813657800364, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686813657800410, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686813657800533, "dur":13346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1686813657813898, "dur":658245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686813658472147, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1686813658472231, "dur":4020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1686813658476273, "dur":598961, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657787936, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657787937, "dur":935, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657788877, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686813657788950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657796625, "dur":126627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1686813657923278, "dur":614, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657923895, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657923901, "dur":2956, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657926879, "dur":738, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657927619, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657927624, "dur":3715, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657931369, "dur":620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657931992, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657932003, "dur":3221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657935250, "dur":284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657935540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657935549, "dur":2822, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657938400, "dur":5658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657944060, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657944065, "dur":5214, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657949297, "dur":1142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657950443, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657950449, "dur":3121, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657953598, "dur":15436, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657969054, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1686813657969066, "dur":9939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":7, "ts":1686813657979025, "dur":1096180, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657788576, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657788577, "dur":291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657788876, "dur":15669, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686813657804549, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657804568, "dur":1889, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1686813657806482, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1686813657806517, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657806522, "dur":54672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":8, "ts":1686813657861211, "dur":511, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657861727, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657862102, "dur":1382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657863500, "dur":402, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657863905, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657863980, "dur":1489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657865487, "dur":390, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657865879, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657865884, "dur":1594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657867497, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657867958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657867963, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657869393, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657869853, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657869861, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657871435, "dur":409, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657871847, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657871853, "dur":1318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657873187, "dur":347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657873537, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657873542, "dur":1655, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657875218, "dur":466, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657875688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657875734, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657877644, "dur":522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657878196, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657878205, "dur":2019, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657880241, "dur":410, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657880654, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657880660, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657882440, "dur":430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657882873, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657882879, "dur":1628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657884523, "dur":357, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657884882, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657884892, "dur":1681, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIWidgetsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657886601, "dur":1906, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657888510, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657888515, "dur":2149, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657890687, "dur":621, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657891311, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657891318, "dur":2212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657893550, "dur":405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657893958, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657893966, "dur":1799, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657895787, "dur":476, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657896266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657896271, "dur":1954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657898240, "dur":413, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657898655, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657898661, "dur":1731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657900412, "dur":368, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657900783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657900790, "dur":1834, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657902641, "dur":549, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657903193, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657903199, "dur":1856, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657905079, "dur":641, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657905723, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657905731, "dur":2250, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657908005, "dur":440, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657908449, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657908456, "dur":2099, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657910578, "dur":414, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657910995, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657911002, "dur":2153, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657913178, "dur":432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657913613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657913617, "dur":2061, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657915695, "dur":2142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657917865, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657917873, "dur":3160, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657921050, "dur":394, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657921447, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657921452, "dur":2468, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657923943, "dur":478, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657924424, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657924428, "dur":2902, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657927353, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657927628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657927660, "dur":4385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657932071, "dur":393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657932467, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657932476, "dur":3493, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657935998, "dur":326, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657936327, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657936333, "dur":3173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657939553, "dur":752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657940309, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657940317, "dur":1854, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657942191, "dur":584, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657942778, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657942785, "dur":2385, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657945192, "dur":4260, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657949455, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657949462, "dur":4456, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657953949, "dur":959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657954950, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657954961, "dur":2954, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1686813657957938, "dur":457, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/BulletData.xml" }}
+,{ "pid":12345, "tid":8, "ts":1686813657958398, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657958529, "dur":2833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/BulletData.xml" }}
+,{ "pid":12345, "tid":8, "ts":1686813657961388, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686813657961414, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657961420, "dur":3564, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":8, "ts":1686813657965022, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686813657965055, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1686813657965063, "dur":18626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1686813657983720, "dur":1091493, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686813657789382, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686813657789382, "dur":167709, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1686813657957095, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686813657957114, "dur":4762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1686813657961897, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1686813657961917, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686813657961923, "dur":14159, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":9, "ts":1686813657976119, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1686813657976144, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1686813657976157, "dur":3365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level0" }}
+,{ "pid":12345, "tid":9, "ts":1686813657979540, "dur":1095668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686813657790263, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686813657790264, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686813657790310, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686813657792684, "dur":15842, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":10, "ts":1686813657808543, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1686813657808567, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686813657808572, "dur":21375, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":10, "ts":1686813657829972, "dur":624320, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1686813658454298, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1686813658454306, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":10, "ts":1686813658456473, "dur":618755, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657791225, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657791226, "dur":13405, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686813657804635, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657804655, "dur":1733, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":11, "ts":1686813657806404, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1686813657806456, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657806463, "dur":52485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1686813657858969, "dur":30, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1686813657859001, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657859325, "dur":47720, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":11, "ts":1686813657907070, "dur":426, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657907499, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657907505, "dur":2055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657909583, "dur":322, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657909908, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657909937, "dur":2257, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657912217, "dur":379, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657912599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657912605, "dur":2326, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657914950, "dur":350, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657915302, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657915307, "dur":2012, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657917342, "dur":435, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657917780, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657917785, "dur":2615, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657920418, "dur":579, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657921000, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657921005, "dur":2391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657923416, "dur":447, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657923866, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657923872, "dur":3024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657926915, "dur":672, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657927590, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657927597, "dur":4395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657932018, "dur":452, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657932474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657932481, "dur":3616, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657936117, "dur":399, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657936519, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657936525, "dur":3452, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657940003, "dur":1054, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657941060, "dur":8, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657941073, "dur":2482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657943578, "dur":557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657944138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657944144, "dur":4403, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657948572, "dur":587, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657949162, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657949197, "dur":2650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657951866, "dur":1415, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657953284, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657953293, "dur":4054, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":11, "ts":1686813657957370, "dur":2165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/RoleData.xml" }}
+,{ "pid":12345, "tid":11, "ts":1686813657959541, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657959551, "dur":5142, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/StreamingAssets/RoleData.xml" }}
+,{ "pid":12345, "tid":11, "ts":1686813657964731, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1686813657965030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657965043, "dur":8891, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1686813657973974, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1686813657974000, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1686813657974013, "dur":5317, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityTeach2_Demo_Data/level0.resS" }}
+,{ "pid":12345, "tid":11, "ts":1686813657979364, "dur":1095839, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686813657792131, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686813657792132, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1686813657792173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686813657792899, "dur":7207, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1686813657800137, "dur":20349, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1686813657820491, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686813657820500, "dur":1446, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1686813657821962, "dur":1239933, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/64268/Desktop//Unity/PlaneGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686813659061900, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1686813659061908, "dur":13239, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/64268/Desktop//Unity/PlaneGame/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":12, "ts":1686813659075169, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":12, "ts":1686813659075172, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1686813659081266, "dur":2299, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1686813659112873, "dur": 1036, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1686813659112085, "dur": 1846, "ph": "X", "name": "Write chrome-trace events", "args": {} },
